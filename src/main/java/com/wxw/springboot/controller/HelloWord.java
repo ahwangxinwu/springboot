@@ -3,6 +3,9 @@ package com.wxw.springboot.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * wxw
+ */
 @RestController
 public class HelloWord {
 
@@ -14,6 +17,7 @@ public class HelloWord {
 
     public static void main(String[] args) {
         System.out.println("结果是："+HelloWord.foo(30));
+        System.out.println("ceshi");
     }
 
     /**
