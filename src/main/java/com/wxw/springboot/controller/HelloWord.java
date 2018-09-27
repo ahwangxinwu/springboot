@@ -14,6 +14,7 @@ public class HelloWord {
 
     public static void main(String[] args) {
         System.out.println("结果是："+HelloWord.foo(30));
+        System.out.println("ceshi");
     }
 
     /**
